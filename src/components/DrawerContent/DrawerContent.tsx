@@ -17,7 +17,7 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import { ListContent } from '../../content/ListContent';
 
 type Props = {
-  setCurrentDemo: React.Dispatch<React.SetStateAction<string | null>>;
+  setCurrentDemo: React.Dispatch<React.SetStateAction<string>>;
 };
 
 function DrawerContent({ setCurrentDemo }: Props) {

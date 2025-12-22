@@ -17,6 +17,7 @@ export const ListContent: ListItem[] = [
     children: [
       { id: 'Button', label: 'Button', componentKey: 'MuiButtonDemo' },
       { id: 'Progress', label: 'Progress', componentKey: 'MuiProgressDemo' },
+      { id: 'Menu', label: 'Menu', componentKey: 'MuiMenuDemo' },
     ],
   },
   {

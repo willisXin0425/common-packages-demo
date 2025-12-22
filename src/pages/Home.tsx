@@ -11,9 +11,9 @@ import Drawer from '@mui/material/Drawer';
 import DrawerContent from '../components/DrawerContent/DrawerContent';
 import MuiButtonDemo from '../components/PackageUse/Mui/ButtonDemo/ButtonDemo';
 import MuiProgressDemo from '../components/PackageUse/Mui/ProgressDemo/ProgressDemo';
+import MuiMenuDemo from '../components/PackageUse/Mui/MenuDemo/MenuDemo';
 
 // styles
-
 import { Container } from './style';
 
 const drawerWidth = 300;
@@ -25,13 +25,14 @@ interface Props {
 const componentRegistry: Record<string, React.ComponentType> = {
   MuiButtonDemo,
   MuiProgressDemo,
+  MuiMenuDemo,
 };
 
 export default function Home(props: Props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false); // 手機版開關
   const [isClosing, setIsClosing] = useState(false); // 是否正在關閉
-  const [currentDemo, setCurrentDemo] = useState('MuiButtonDemo'); // 預設為 MuiButtonDemo
+  const [currentDemo, setCurrentDemo] = useState<string>('MuiButtonDemo'); // 預設為 MuiButtonDemo
 
   const handleDrawerClose = () => {
     setIsClosing(true);
