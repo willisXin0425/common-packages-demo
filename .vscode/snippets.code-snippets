@@ -1,0 +1,7 @@
+{
+    "import tailwind & twin macro": {
+        "prefix": "iptw",
+        "body": ["import tw, { styled } from 'twin.macro';"],
+        "description": "import tailwind & twin macro"
+      },
+}
