@@ -16,7 +16,7 @@ export const ListContent: ListItem[] = [
     label: 'Material UI (MUI)',
     children: [
       { id: 'Button', label: 'Button', componentKey: 'MuiButtonDemo' },
-      { id: 'Rating', label: 'Rating', componentKey: 'MuiRatingDemo' },
+      { id: 'Progress', label: 'Progress', componentKey: 'MuiProgressDemo' },
     ],
   },
   {

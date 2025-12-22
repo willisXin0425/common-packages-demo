@@ -10,6 +10,7 @@ import Drawer from '@mui/material/Drawer';
 // components
 import DrawerContent from '../components/DrawerContent/DrawerContent';
 import MuiButtonDemo from '../components/PackageUse/Mui/ButtonDemo/ButtonDemo';
+import MuiProgressDemo from '../components/PackageUse/Mui/ProgressDemo/ProgressDemo';
 
 // styles
 
@@ -23,6 +24,7 @@ interface Props {
 
 const componentRegistry: Record<string, React.ComponentType> = {
   MuiButtonDemo,
+  MuiProgressDemo,
 };
 
 export default function Home(props: Props) {

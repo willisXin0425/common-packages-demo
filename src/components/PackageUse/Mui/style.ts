@@ -9,7 +9,7 @@ export const DemoWrap = styled.div`
 `;
 
 export const DemoTitle = styled.div`
-  ${tw`text-[26px] font-bold mb-4`}
+  ${tw`text-[26px] font-bold mb-6`}
 `;
 
 export const DemoContent = styled.div`
