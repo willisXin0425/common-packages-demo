@@ -1,5 +1,5 @@
 function SandBox1() {
-  return <div>SandBox1</div>;
+  return <div></div>;
 }
 
 export default SandBox1;
