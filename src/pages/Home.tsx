@@ -12,6 +12,9 @@ import DrawerContent from '../components/DrawerContent/DrawerContent';
 import MuiButtonDemo from '../components/PackageUse/Mui/ButtonDemo/ButtonDemo';
 import MuiProgressDemo from '../components/PackageUse/Mui/ProgressDemo/ProgressDemo';
 import MuiMenuDemo from '../components/PackageUse/Mui/MenuDemo/MenuDemo';
+import MuiAccordionDemo from '../components/PackageUse/Mui/AccordionDemo/AccordionDemo';
+import AntdTabDemo from '../components/PackageUse/Antd/TabDemo/TabDemo';
+import AntdStepsDemo from '../components/PackageUse/Antd/StepsDemo/StepsDemo';
 
 // styles
 import { Container } from './style';
@@ -26,6 +29,9 @@ const componentRegistry: Record<string, React.ComponentType> = {
   MuiButtonDemo,
   MuiProgressDemo,
   MuiMenuDemo,
+  MuiAccordionDemo,
+  AntdTabDemo,
+  AntdStepsDemo,
 };
 
 export default function Home(props: Props) {

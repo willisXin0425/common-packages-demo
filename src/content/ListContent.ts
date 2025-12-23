@@ -18,11 +18,15 @@ export const ListContent: ListItem[] = [
       { id: 'Button', label: 'Button', componentKey: 'MuiButtonDemo' },
       { id: 'Progress', label: 'Progress', componentKey: 'MuiProgressDemo' },
       { id: 'Menu', label: 'Menu', componentKey: 'MuiMenuDemo' },
+      { id: 'Accordion', label: 'Accordion', componentKey: 'MuiAccordionDemo' },
     ],
   },
   {
     id: 'AntDesign',
     label: 'Ant Design',
-    children: [{ id: 'Tabs', label: 'Tabs', componentKey: 'AntTabsDemo' }],
+    children: [
+      { id: 'Tabs', label: 'Tabs', componentKey: 'AntdTabDemo' },
+      { id: 'Steps', label: 'Steps', componentKey: 'AntdStepsDemo' },
+    ],
   },
 ];
