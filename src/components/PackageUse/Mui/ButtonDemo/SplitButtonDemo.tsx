@@ -24,7 +24,7 @@ export default function SplitButtonDemo() {
     console.info(`You clicked ${options[selectedIndex]}`);
   };
 
-  const handleMenuItemClick = (event: React.MouseEvent<HTMLLIElement, MouseEvent>, index: number) => {
+  const handleMenuItemClick = (index: number) => {
     setSelectedIndex(index);
     setOpen(false);
   };
@@ -75,7 +75,7 @@ export default function SplitButtonDemo() {
                           key={option}
                           disabled={index === 2}
                           selected={index === selectedIndex}
-                          onClick={(event) => handleMenuItemClick(event, index)}
+                          onClick={() => handleMenuItemClick(index)}
                         >
                           {option}
                         </MenuItem>
